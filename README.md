@@ -7,12 +7,18 @@ A Coons patch is a mathematical construct employed in computer graphics to creat
 ## Implementation
 The coon's patch is constructed by reading co-ordinates from the text file "coons_patch_points". Each four lines in the file contains the control points of a Bezier curve. For each curve each two lines contains one endpoint of the bezier curve and it’s adjacent control point respectively. These four sets of control points determine the boundary of your Coons patch.
 
+To run the implementation simply run the coons_patch.blend file in Blender3D. 
+
 ## Results
 The results of the coon's patch generated are as follows:
-![3D View](3d view.png)
 
 3D View
 
+![3D View](3d_view.png)
+
+
+
+
+Top View
 
 ![Top View](top_view.png)
-
